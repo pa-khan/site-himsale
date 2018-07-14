@@ -1,7 +1,7 @@
 /* Grid */
 .case {
   position: relative;
-  width: 1200px;
+  width: 1210px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto; }
@@ -11,7 +11,14 @@
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
   .row-r {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;

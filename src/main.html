@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="template/styles/css/style.css" />
+	<link rel="stylesheet" href="template/styles/css/responsive.css" />
+	<script src="template/scripts/libs.js"></script>
+	<script src="template/scripts/common.js"></script>
+	<!--[if lt IE 9]>
+	<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('main');
+		document.createElement('section');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
+	</script>
+	<![endif]-->
+</head>
+<body>
+<header class="header">
+	<div class="panel">
+		<div class="panel__case case row">
+			<div class="panel__nav">
+				<ul>
+					<li><a href="">Главная</a></li>
+					<li><a href="">Каталог</a></li>
+					<li><a href="">Поставщикам</a></li>
+					<li><a href="">О компании</a></li>
+					<li><a href="">Прайс лист</a></li>
+				</ul>
+			</div>
+			<div class="panel__mobile-btn hidden">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<a href="" class="panel__btn btn btn_bg-yellow btn_color-black btn_small">Прайс-лист</a>
+		</div>
+	</div>
+	<div class="header__content">
+		<div class="header__case case row">
+			<div class="header__logo"><a href=""><img src="upload/logo.png" alt=""></a></div>
+			<div class="header__info">
+				<div class="header__desc">Оптовый поставщик химического сырья</div>
+				<div class="header__btns row">
+					<a href="" class="header__btn-catalog btn btn_border-green bg_color-green btn_normal"><i class="icon-barrel-green"></i>Каталог продукции</a>
+					<a data-fancybox data-src="#popup-buy" href="javascript:;" class="header__btn-buy btn btn_bg-green btn_color-white btn_normal"><i class="icon-cart-white"></i>Купить</a>
+				</div>
+			</div>
+			<div class="header__control row">
+				<a data-fancybox data-src="#popup-callback" href="javascript:;" class="header__btn-callback btn btn_bg-yellow btn_big"><i class="icon-phone-black"></i>Перезвоните мне</a>
+				<div class="header__contacts">
+					<div class="header__phone"><a href="">8 800 100 76 79</a></div>
+					<div class="header__messages">
+						<ul>
+							<li><a href=""><i class="icon icon-whatsapp"></i></a></li>
+							<li><a href=""><i class="icon icon-telegram"></i></a></li>
+							<li><a href=""><i class="icon icon-icq"></i></a></li>
+							<li><a href=""><i class="icon icon-viber"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<div class="main">
+	<div class="main-slide">
+		<div class="main-slide__case case">
+			<div class="main-slide__wrap">
+				<div class="main-slide__title">Оптовый поставщик химсырья</div>
+				<div class="main-slide__desc subtitle">Надежный выбор в сфере химического производства</div>
+				<div class="main-slide__data data">
+					<div class="data__head"><a href="">Перейти в каталог ></a></div>
+					<div class="data__body">
+						<p>Минимальный заказ:</p>
+						<div class="row i-top">
+							<ul>
+								<li>- Мешок, 25 кг.</li>
+								<li>- Барабан, 50 кг.</li>
+								<li>- Бочка, от 165 кг.</li>
+							</ul>
+							<ul>
+								<li>- Палета (стекловолокно), от 1 100 кг.</li>
+								<li>- Еврокуб, 1 600 кг.</li>
+							</ul>
+						</div>
+						<p class="desc">Отгрузка меньшего объема невозможна</p>
+					</div>
+				</div>
+			</div>
+			<div class="main-slide__content">
+				<div class="main-slide__content-title title line">Химическая продукция в Казани</div>
+				<div class="main-slide__content-text text">
+					<p>Миссией компании «ТЕРА-ИНВЕСТ» является осуществление оперативных поставок качественного сырья, в том числе комбинаций сырья, по наилучшим ценам для потребностей различных производств в России, странах ближнего и дальнего зарубежья с решением задач по транспортировке сырья до клиентов.</p>
+					<p>Компания «ТЕРА-ИНВЕСТ» за время поставок зарекомендовала себя как надежный поставщик, о чем свидетельствует удовлетворенность наших клиентов, среди которых ведущее место занимают различные производства, которые мы регулярно и точно в срок снабжаем сырьем проверенного качества.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="case">
+		<div class="footer__copy">«ХимСейл» © 2018</div>
+	</div>
+</div>
+
+
+<div class="popup" id="popup-buy">
+	<div class="popup__close" data-fancybox-close><i class="icon icon-cross"></i></div>
+	<div class="popup__wrap row">
+		<div class="popup__form">
+			<div class="popup__title title">Купить</div>
+			<div class="popup__desc">Отправьте заявку, и мы обязательно с вами свяжемся</div>
+			<div class="popup__elements">
+				<input type="text" class="popup__input input" placeholder="Имя">
+				<input type="text" class="popup__input input" placeholder="Телефон или email">
+				<textarea class="popup__textarea textarea" placeholder="Комментарий"></textarea>
+				<div class="popup__checkbox checkbox">
+					<input type="checkbox">
+					<label>Даю согласие на обработку <br>персональных данных</label>
+				</div>
+				<button class="popup__btn btn btn_bg-green btn_normal btn_color-white">Отправить</button>
+			</div>
+		</div>
+		<div class="popup__data">
+			<div class="popup__text">
+				<p>Минимальный заказ:</p>
+				<ul>
+					<li>- Мешок, 25 кг.</li>
+					<li>- Барабан, 50 кг.</li>
+					<li>- Бочка, от 165 кг.</li>
+					<li>- Палета (стекловолокно), от 1 100 кг.</li>
+					<li>- Еврокуб, 1 600 кг.</li>
+				</ul>
+				<div class="popup__desc">Отгрузка меньшего объема невозможна</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="popup" id="popup-callback">
+	<div class="popup__close" data-fancybox-close><i class="icon icon-cross"></i></div>
+	<div class="popup__wrap row">
+		<div class="popup__form">
+			<div class="popup__title title">Заказать звонок</div>
+			<div class="popup__desc">Отправьте заявку, и мы обязательно с вами свяжемся</div>
+			<div class="popup__elements">
+				<input type="text" class="popup__input input" placeholder="Имя">
+				<input type="text" class="popup__input input" placeholder="Телефон или email">
+				<textarea class="popup__textarea textarea" placeholder="Комментарий"></textarea>
+				<div class="popup__checkbox checkbox">
+					<input type="checkbox">
+					<label>Даю согласие на обработку <br>персональных данных</label>
+				</div>
+				<button class="popup__btn btn btn_bg-green btn_normal btn_color-white">Отправить</button>
+			</div>
+		</div>
+		<div class="popup__data">
+			<div class="popup__text">
+				<p>Минимальный заказ:</p>
+				<ul>
+					<li>- Мешок, 25 кг.</li>
+					<li>- Барабан, 50 кг.</li>
+					<li>- Бочка, от 165 кг.</li>
+					<li>- Палета (стекловолокно), от 1 100 кг.</li>
+					<li>- Еврокуб, 1 600 кг.</li>
+				</ul>
+				<div class="popup__desc">Отгрузка меньшего объема невозможна</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="popup" id="popup-price-list">
+	<div class="popup__close" data-fancybox-close><i class="icon icon-cross"></i></div>
+	<div class="popup__wrap row">
+		<div class="popup__form">
+			<div class="popup__title title">Запросить <br>прайс-лист</div>
+			<div class="popup__desc">Отправьте заявку, и мы обязательно с вами свяжемся</div>
+			<div class="popup__elements">
+				<input type="text" class="popup__input input" placeholder="Имя">
+				<input type="text" class="popup__input input" placeholder="Телефон или email">
+				<textarea class="popup__textarea textarea" placeholder="Комментарий"></textarea>
+				<div class="popup__checkbox checkbox">
+					<input type="checkbox">
+					<label>Даю согласие на обработку <br>персональных данных</label>
+				</div>
+				<button class="popup__btn btn btn_bg-green btn_normal btn_color-white">Отправить</button>
+			</div>
+		</div>
+		<div class="popup__data">
+			<div class="popup__text">
+				<p>Минимальный заказ:</p>
+				<ul>
+					<li>- Мешок, 25 кг.</li>
+					<li>- Барабан, 50 кг.</li>
+					<li>- Бочка, от 165 кг.</li>
+					<li>- Палета (стекловолокно), от 1 100 кг.</li>
+					<li>- Еврокуб, 1 600 кг.</li>
+				</ul>
+				<div class="popup__desc">Отгрузка меньшего объема невозможна</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="popup" id="popup-provider">
+	<div class="popup__close" data-fancybox-close><i class="icon icon-cross"></i></div>
+	<div class="popup__full">
+		<div class="popup__title title">Вы поставщик?</div>
+		<div class="popup__text">Если у вас есть интересное предложение по поставкам химсырья, пишите на <a href="mailto:info@himsale.ru">info@himsale.ru</a></div>
+	</div>
+</div>
+
+<div class="popup" id="popup-buy-small">
+	<div class="popup__close" data-fancybox-close><i class="icon icon-cross"></i></div>
+	<div class="popup__wrap row">
+		<div class="popup__form">
+			<div class="popup__title title">Купить</div>
+			<div class="popup__desc">Отправьте заявку, и мы обязательно с вами свяжемся</div>
+			<div class="popup__elements">
+				<input type="text" class="popup__input input" placeholder="Имя">
+				<input type="text" class="popup__input input" placeholder="Телефон или email">
+				<textarea class="popup__textarea textarea" placeholder="Комментарий"></textarea>
+				<div class="popup__checkbox checkbox">
+					<input type="checkbox">
+					<label>Даю согласие на обработку <br>персональных данных</label>
+				</div>
+				<button class="popup__btn btn btn_bg-green btn_normal btn_color-white">Отправить</button>
+			</div>
+		</div>
+		<div class="popup__data">
+			<div class="popup__subtitle subtitle">Эпоксидная смола KER 828</div>
+			<div class="popup__text">
+				<p>Минимальный заказ:</p>
+				<ul>
+					<li>- Барабан, 50 кг.</li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<div class="popup__desc">Отгрузка меньшего объема невозможна</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
