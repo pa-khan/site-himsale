@@ -313,8 +313,9 @@
 
 			
 	.main-slide
-		background: none
 		padding-bottom: 0
+		background-position: 75% 0
+		background-size: 1600px auto
 		&__content
 			max-width: 100%
 			
@@ -331,6 +332,11 @@
 
 		&__content
 			&-title
+
+		&__data
+			margin-top: 335px
+			
+				
 			
 			
 	.line
@@ -372,7 +378,10 @@
 			right: 10px
 			
 		&__data
-			display: none
+			// display: none
+			width: 100%
+			padding: 15px
+			order: 2
 
 		&__form
 			width: 100%
@@ -438,6 +447,22 @@
 	.product__other
 		display: none
 
+@media screen and (max-width: 540px)
+	.main-slide
+		background-position: 75% 90px
+		background-size: 900px auto
+		&__data
+			margin-top: 190px
+			
+
 @media screen and (max-width: 420px)
 	.header__logo
 		text-align: left
+
+
+@media screen and (max-width: 365px)
+	.main-slide
+		background-position: 75% 125px
+		background-size: 900px auto
+		&__data
+			margin-top: 190px

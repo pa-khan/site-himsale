@@ -118,11 +118,11 @@ input, textarea, button
 			content: ''
 			position: absolute
 			width: 7px
-			height: 7px
+			height: 5px
 			border-radius: 3px
-			top: 7px
+			top: 8px
 			left: 3px
-			background-color: #dddddd
+			background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAWklEQVQYV12MURGAMAxDXxSAFByxOsACSlYUIAEkIGFKGNfb9kM+erm8pOKnlJlBJ6goZZbgbjwdXBCZDqWsAkxQd9A6gNub+lJ3K4SqueHhFKe9jkLdBoj8A6CWGUftRZCHAAAAAElFTkSuQmCC)
 			transition: .3s
 			transform: scale(0)
 
@@ -222,6 +222,9 @@ input, .btn, .slick-slide, .textarea textarea
 			margin-right: 16px
 			&:last-of-type
 				display: none
+			&.selected
+				a
+					color: #fff
 		a
 			color: #bac5b5
 			&:hover
