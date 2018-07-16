@@ -93,7 +93,7 @@
 			margin-right: 50px
 
 		&__messages
-			width: 180px
+			width: 130px
 
 		&__content
 			// padding-top: 0
@@ -326,6 +326,8 @@
 		&__title
 			font-size: 30px
 			line-height: 30px
+			padding-left: 10px
+			padding-right: 10px
 			text-align: center
 		&__desc
 			text-align: center
@@ -334,7 +336,7 @@
 			&-title
 
 		&__data
-			margin-top: 335px
+			margin-top: 380px
 			
 				
 			
@@ -369,10 +371,9 @@
 
 	.popup
 		&__title
-			padding-right: 15px
-			padding-left: 15px
-			text-align: center
-			
+			padding-right: 27px
+			br
+				display: none
 		&__close
 			top: 10px
 			right: 10px
@@ -395,6 +396,12 @@
 		&__btn
 			width: 100%
 			
+
+	.popup__full .popup__title
+		padding-left: 27px
+
+	.popup_small .popup__title
+		padding-left: 0
 			
 	.breadcrumbs
 		padding-top: 10px
@@ -422,7 +429,11 @@
 
 
 	.aside
-		display: none
+		width: 100%
+		margin-bottom: 30px
+		&__title
+			margin-bottom: 10px
+			
 
 	.section
 		width: 100%
@@ -447,12 +458,31 @@
 	.product__other
 		display: none
 
+	.popup__close
+		display: none
+
+	.popup 
+		overflow: hidden
+	.popup .fancybox-close-small
+		display: block
+		width: 55px
+		height: 55px
+		padding: 0
+		font-size: 0
+		svg
+			position: relative
+			width: 70px
+			height: 70px
+			top: -8px
+			left: -8px
+	.hidden-xs
+		display: none
 @media screen and (max-width: 540px)
 	.main-slide
 		background-position: 75% 90px
 		background-size: 900px auto
 		&__data
-			margin-top: 190px
+			margin-top: 220px
 			
 
 @media screen and (max-width: 420px)
@@ -465,4 +495,4 @@
 		background-position: 75% 125px
 		background-size: 900px auto
 		&__data
-			margin-top: 190px
+			margin-top: 225px

@@ -102,14 +102,15 @@ input, textarea, button
 		padding-left: 25px
 		cursor: pointer
 		display: inline-block
+		padding-top: 2px
 		&:before
 			position: absolute
 			top: 4px
 			left: 0
 			content: ''
 			display: block
-			width: 13px
-			height: 13px
+			width: 18px
+			height: 18px
 			border-radius: 3px
 			border: 1px solid #dddddd
 			background-color: #f5f5f5
@@ -117,12 +118,13 @@ input, textarea, button
 			opacity: 0
 			content: ''
 			position: absolute
-			width: 7px
-			height: 5px
+			width: 10px
+			height: 8px
 			border-radius: 3px
-			top: 8px
-			left: 3px
-			background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAWklEQVQYV12MURGAMAxDXxSAFByxOsACSlYUIAEkIGFKGNfb9kM+erm8pOKnlJlBJ6goZZbgbjwdXBCZDqWsAkxQd9A6gNub+lJ3K4SqueHhFKe9jkLdBoj8A6CWGUftRZCHAAAAAElFTkSuQmCC)
+			top: 9px
+			left: 4px
+			background-repeat: no-repeat
+			background-image: url(data:image/svg+xml;base64,PHN2ZyAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgd2lkdGg9IjEwcHgiIGhlaWdodD0iOHB4Ij48ZGVmcz48ZmlsdGVyIGlkPSJGaWx0ZXJfMCI+ICAgIDxmZUZsb29kIGZsb29kLWNvbG9yPSJyZ2IoOTYsIDE1OSwgMSkiIGZsb29kLW9wYWNpdHk9IjEiIHJlc3VsdD0iZmxvb2RPdXQiIC8+ICAgIDxmZUNvbXBvc2l0ZSBvcGVyYXRvcj0iYXRvcCIgaW49ImZsb29kT3V0IiBpbjI9IlNvdXJjZUdyYXBoaWMiIHJlc3VsdD0iY29tcE91dCIgLz4gICAgPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iY29tcE91dCIgaW4yPSJTb3VyY2VHcmFwaGljIiAvPjwvZmlsdGVyPjwvZGVmcz48ZyBmaWx0ZXI9InVybCgjRmlsdGVyXzApIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiICBmaWxsPSJyZ2IoMCwgMCwgMCkiIGQ9Ik05LjgxOCwxLjEwNSBMOC45NDEsMC4xODkgQzguODIxLDAuMDY0IDguNjc0LDAuMDAxIDguNTAyLDAuMDAxIEM4LjMzMCwwLjAwMSA4LjE4NCwwLjA2NCA4LjA2NCwwLjE4OSBMMy44MzMsNC42MTMgTDEuOTM2LDIuNjI3IEMxLjgxNiwyLjUwMSAxLjY3MCwyLjQzOCAxLjQ5OCwyLjQzOCBDMS4zMjYsMi40MzggMS4xNzksMi41MDEgMS4wNTksMi42MjcgTDAuMTgyLDMuNTQyIEMwLjA2MSwzLjY2OCAwLjAwMSwzLjgyMCAwLjAwMSw0LjAwMCBDMC4wMDEsNC4xNzkgMC4wNjEsNC4zMzIgMC4xODIsNC40NTggTDIuNTE3LDYuODk1IEwzLjM5NCw3LjgxMSBDMy41MTQsNy45MzYgMy42NjAsNy45OTkgMy44MzMsNy45OTkgQzQuMDA0LDcuOTk5IDQuMTUxLDcuOTM2IDQuMjcxLDcuODExIEw1LjE0OCw2Ljg5NSBMOS44MTgsMi4wMjEgQzkuOTM5LDEuODk1IDkuOTk5LDEuNzQyIDkuOTk5LDEuNTYzIEM5Ljk5OSwxLjM4MyA5LjkzOSwxLjIzMSA5LjgxOCwxLjEwNSBaIi8+PC9nPjwvc3ZnPg==)
 			transition: .3s
 			transform: scale(0)
 
@@ -914,7 +916,15 @@ input, .btn, .slick-slide, .textarea textarea
 					&:hover
 						border-color: transparent
 
-				
+	&_small
+		padding: 50px
+		width: 320px
+		.popup
+			&__full
+				padding: 0
+			&__title
+				margin-bottom: 0
+				padding-right: 0
 				
 	.fancybox-close-small
 		display: none
