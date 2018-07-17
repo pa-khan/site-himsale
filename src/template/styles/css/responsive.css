@@ -89,6 +89,9 @@
     width: 130px; }
   .header__content {
     padding-bottom: 0; }
+  .header__messages {
+    margin-left: 0;
+    margin-right: 0; }
   .main-slide__content {
     max-width: 650px; }
   .text img.about-img {

@@ -580,17 +580,21 @@ input, .btn, .slick-slide, .textarea textarea {
       background-position: -102px -100px;
       width: 16px;
       height: 16px; }
-  .header__messages ul {
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-  .header__messages a {
-    display: block; }
-    .header__messages a:hover {
-      -webkit-transform: scale(0.8);
-          -ms-transform: scale(0.8);
-              transform: scale(0.8); }
+  .header__messages {
+    max-width: 90px;
+    margin-left: auto;
+    margin-right: auto; }
+    .header__messages ul {
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+    .header__messages a {
+      display: block; }
+      .header__messages a:hover {
+        -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+                transform: scale(0.8); }
 
 .title {
   font-size: 22px;
@@ -1145,6 +1149,9 @@ input, .btn, .slick-slide, .textarea textarea {
       padding-right: 0; }
   .popup .fancybox-close-small {
     display: none; }
+
+.popup {
+  cursor: default !important; }
 
 .popup-links {
   margin-top: 100px;
