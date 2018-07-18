@@ -312,10 +312,9 @@
       .data__body ul {
         margin-bottom: 7px; }
   .footer {
-    margin-top: 15px; }
-    .footer__copy {
-      padding-top: 15px;
-      padding-bottom: 17px; }
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 17px; }
   .popup__title {
     padding-right: 27px; }
     .popup__title br {
